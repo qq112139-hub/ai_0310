@@ -13,16 +13,16 @@
       디렉터리 구조:
       Portfolio (root)
        L ai model
-           L ai_interface.py (모델인터페이스)
-           L conv_ai.py (모델 로딩 및 분석기)
+         L ai_interface.py (모델인터페이스)
+         L conv_ai.py (모델 로딩 및 분석기)
        L static
-           L app
+         L app
            L index.js (클라이언트 스크립트파일)
-       L css
+         L css
            L index.css (클라이언트 모양설정)
-           L images (메인페이지 이미지 파일)
-           L temp (예측 업로드 파일)
+         L images (메인페이지 이미지 파일)
+         L temp (예측 업로드 파일)
        L templates
-           L index.html (메인페이지)
+         L index.html (메인페이지)
        L web_sercive.py (web route)
 </pre>
