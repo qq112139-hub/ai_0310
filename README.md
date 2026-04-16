@@ -4,7 +4,7 @@
 - 이미지 리사이징 : resize_with_pad (32*32 3channel 이미지)
 - 훈련데이터 : cifar10
 - 이미지 라벨 : ["airplane","automobile","bird","cat","deer","dog","frog","horse","ship","truck"]
-- 이미지 한글라벨 : [비행기, 자동차, 새, 고양이, 사슴, 강아지, 개구리, 말, 선박, 트럭]
+- 이미지 한글라벨 : ["비행기", "자동차", "새", "고양이", "사슴", "강아지", "개구리", "말", "선박", "트럭"]
 - 서비스 서버 : Flask
 - 통신데이터 유형 : json / dict
 - 특징 : Conv2D and MaxPOOL2D 사용으로 특성맵 추출과 풀링충을 거쳐 과대적합 방지  
